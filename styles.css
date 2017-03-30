@@ -1,0 +1,278 @@
+*{
+    margin : 0;
+    padding : 0;        
+    font-family: 'Oswald', sans-serif;
+    font-size : 20px;
+}
+
+nav{
+    border-radius: 0;
+    background: transparent !important;
+    box-shadow: none !important;
+    border: none !important;
+    font-family: 'Oswald', sans-serif;
+    position: absolute;
+    margin-bottom: 0 !important;
+  
+}
+
+#navbar ul li a{
+    color:  #333 !important;
+    font-size : 15px !important;
+}
+
+.navbar-brand{
+    font-size : 30px !important;
+    color:  #FFF !important;
+    font-weight: 900;     
+}
+
+.splash{
+    background: fixed;
+    background-size: cover;
+    min-height : 700px;
+    color : white;
+
+}
+
+.navbar-header{
+    padding-left: 33%;
+}
+
+.hireMe{
+    background: url('desktop.jpg') center no-repeat fixed;
+    background-size: cover;
+    width : 50%;
+    min-height : 700px;
+    position: relative;
+    float: left;    
+}
+
+.splash-img-section{
+    background: #fff;
+    width : 50%;
+    min-height : 700px;
+    position: relative;
+    float: right;
+    color : #000;
+}
+
+.splash-img-section .bio-section{
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%) 
+}
+
+.bio-section h1{
+    font-size: 2.5em;
+    font-weight: 700;
+}
+.about{
+    margin: 50px;
+    text-align: center;    
+}
+
+.margin-top-50{
+    margin-top: 50px;
+}
+
+.margin-bottom-0{
+    margin-bottom: 0;
+}
+
+.portfolio-btn{
+    margin: 50px 0;
+    min-width: 120px;
+    min-height: 40px;
+    background: #000;
+    color : #ddd;
+    padding: 15px 40px !important;
+    border: 1px solid #000;
+    
+}
+
+.skills{
+    margin: 50px 0;
+    
+}
+
+
+progress {
+	 width: 100%;
+	height: 20px;
+	margin: 20px auto;
+	display: block;
+	/* Important Thing */
+	-webkit-appearance: none;
+	border: none;
+}
+/* All good till now. Now we'll style the background */
+progress::-webkit-progress-bar {
+	background: black;
+	border-radius: 50px;
+	padding: 2px;
+	box-shadow: 0 1px 0px 0 rgba(255, 255, 255, 0.2);
+}
+
+/* Now the value part */
+progress::-webkit-progress-value {
+	border-radius: 50px;
+	box-shadow: inset 0 1px 1px 0 rgba(255, 255, 255, 0.4);
+	background:
+		-webkit-linear-gradient(45deg, transparent, transparent 33%, rgba(0, 0, 0, 0.1) 33%, rgba(0, 0, 0, 0.1) 66%, transparent 66%),
+		-webkit-linear-gradient(top, rgba(255, 255, 255, 0.25), rgba(0, 0, 0, 0.2)),
+		-webkit-linear-gradient(left, #ba7448, #c4672d);
+	
+	/* Looks great, now animating it */
+	background-size: 25px 14px, 100% 100%, 100% 100%;
+	-webkit-animation: move 5s linear 0 infinite;
+}
+
+/* That's it! Now let's try creating a new stripe pattern and animate it using animation and keyframes properties  */
+
+@-webkit-keyframes move {
+	0% {background-position: 0px 0px, 0 0, 0 0}
+	100% {background-position: -100px 0px, 0 0, 0 0}
+}
+
+/* Prefix-free was creating issues with the animation */
+
+
+hr{
+    width: 10%;
+}
+
+
+.whatIDo{
+    min-height: 600px;
+    background: url('code4.jpg') center no-repeat fixed;  
+    background-size: cover;
+    margin: 100px 0;    
+    padding: 50px;
+    
+}
+
+.services{
+    background: white;
+    height: 300px;
+    padding: 50px;
+    margin: 0px 50px;    
+   
+}
+
+.service{  
+    border-right: 1px solid #ddd;
+    height: 300px;
+    background: white;  
+    box-shadow: 1px 1px 5px 1px #333; 
+}
+
+.service:last-child{
+    border-right: none;
+}
+.service p.icon{    
+    font-weight: bolder;
+    font-size: 2em;
+}
+
+.recent-projects-section{
+    margin: 50px 0;
+}
+
+.project{
+    
+    background-size: cover !important;
+    height: 250px;
+}
+
+.project:nth-child(1){
+    background: url('pr01.jpeg') no-repeat center;
+}
+
+.project:nth-child(2){
+    background: url('pr02.jpg') no-repeat center;
+}
+
+.project:nth-child(3){
+    background: url('pr03.jpeg') no-repeat center;
+}
+
+.project:nth-child(4){
+    background: url('pr04.jpeg') no-repeat center;
+}
+
+.project:nth-child(5){
+    background: url('pr03.jpeg') no-repeat center;
+}
+
+.project:nth-child(6){
+    background: url('pr02.jpg') no-repeat center;
+}
+
+.exp{
+    margin: 50px 0;
+    background: url('snap4.jpeg') no-repeat fixed;
+    background-size: cover;
+    height: 250px;    
+    padding: 50px;
+    box-sizing: border-box; 
+}
+
+.stats{
+    position: relative;
+    border: 0;
+    opacity: 0.8;
+    color : white;
+}
+
+.contact{
+    margin: 50px 0;
+}
+
+.contact input{
+    border : none;
+    border-bottom : 1px solid grey;
+    display: block;
+    width: 100%;
+    margin: 10px 0 !important; 
+    padding: 10px 0;
+}
+
+textarea{
+    resize: none;
+    width: 100%;
+    border : none;
+    border-bottom : 1px solid grey;
+     outline-style:none;
+}
+
+.contact input:focus{
+    outline-style:none;
+
+}
+
+
+::-webkit-scrollbar {
+    width: 6px;
+}
+ 
+/* Track */
+::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3); 
+    -webkit-border-radius: 0px;
+    border-radius: 0px;
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+    -webkit-border-radius: 0px;
+    border-radius: 0px;
+    background: rgba(0,0,0,0.8); 
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.5); 
+}
+::-webkit-scrollbar-thumb:window-inactive {
+	background: rgba(0,0,0,0.4); 
+}
